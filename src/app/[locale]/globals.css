@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  font-family: var(--font-radio-canada), sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ededed;
+    --primary-color: #04a4d2;
+    --secondary-color: #ff6a00;
+  }
+}
+
+body {
+  font-family: var(--font-radio-canada), sans-serif !important;
+}
