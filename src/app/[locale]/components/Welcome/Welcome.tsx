@@ -5,9 +5,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faFacebookF, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-const AboutUs = () => {
+const Welcome = () => {
   return (
-    <section className="w-full max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
+    <section className="w-full max-w-full mx-auto py-20 px-4 sm:px-6 lg:px-8">
       <div className="w-full flex flex-col items-center gap-14 md:flex-row md:gap-24">
         {/* Left Content */}
         <div className="w-full flex flex-col gap-5">
@@ -29,8 +29,10 @@ const AboutUs = () => {
         <button className="inline-flex items-center justify-center text-white bg-secondary font-medium border-0 h-10 md:h-12 px-6 focus:outline-none hover:bg-[#FFB95D] hover:text-black rounded-lg text-base transition-colors duration-500">
           Explore Courses
         </button>
-        <button className="inline-flex items-center justify-center  bg-white font-medium text-black border border-black/10 h-10 md:h-12 px-6 focus:outline-none rounded-lg hover:bg-[#FFB95D] text-base transition-colors duration-500">
-          Meet Our Team
+        <button className="inline-flex items-center justify-center  bg-white font-medium text-black border border-black/30 h-10 md:h-12 px-6 focus:outline-none rounded-lg hover:bg-[#FFB95D]  hover:border-0 text-base transition-colors duration-500">
+              <a href="">
+              More about us
+          </a>
         </button>
       </div>
 
@@ -100,4 +102,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Welcome;

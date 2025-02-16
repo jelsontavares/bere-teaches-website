@@ -9,8 +9,8 @@ export const LocaleSelect = () => {
     const changeLocale = useChangeLocale();
 
     return (
-        <select className="locale-select bg-secondary rounded-lg p-2 outline-none border-0" value={locale} onChange={(e) => changeLocale(e.target.value as "en" | "fr" | "pt")}>
-            <option value="en">English</option>
+        <select className="locale-select  rounded-lg p-2 border outline-none" value={locale} onChange={(e) => changeLocale(e.target.value as "en" | "fr" | "pt")}>
+            <option value="en" >English</option>
             <option value="fr">Français</option>
             <option value="pt">Português</option>
         </select>

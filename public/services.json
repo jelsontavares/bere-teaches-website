@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Language Courses",
+    "items": [
+      { "name": "English", "details": "Learn English from basic to advanced levels." },
+      { "name": "French", "details": "Master French with our immersive courses." },
+      { "name": "Portuguese for Foreigners", "details": "Portuguese courses tailored for non-native speakers." },
+      { "name": "Creole for Foreigners", "details": "Discover Creole with our specialized courses." }
+    ]
+  },
+  {
+    "title": "School Reinforcement",
+    "items": [
+      { "name": "Support for 1st to 12th grade", "details": "Extra support for all school subjects." },
+      { "name": "Exam Preparation", "details": "Prepare for exams with our intensive courses." }
+    ]
+  },
+  {
+    "title": "Early Childhood Education",
+    "items": [
+      { "name": "Kindergarten with Language Teaching", "details": "Early language learning for kids." }
+    ]
+  },
+  {
+    "title": "Teaching Methods",
+    "items": [
+      { "name": "Group Classes", "details": "Learn in a group setting with peers." },
+      { "name": "Online Classes", "details": "Flexible online learning options." },
+      { "name": "Intensive Courses", "details": "Fast-track your learning with intensive courses." }
+    ]
+  },
+  {
+    "title": "Languages for Business",
+    "items": [
+      { "name": "English, French, or Portuguese for Professional Contexts", "details": "Language courses for business environments." }
+    ]
+  },
+  {
+    "title": "Translation and Interpretation",
+    "items": [
+      { "name": "Written Translation", "details": "Professional written translation services." },
+      { "name": "Simultaneous or Consecutive Interpretation", "details": "Interpretation services for events and meetings." }
+    ]
+  }
+]

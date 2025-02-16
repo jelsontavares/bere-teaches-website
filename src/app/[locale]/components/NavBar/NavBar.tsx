@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-8 text-2xl font-bold text-black absolute left-1/2 transform -translate-x-1/2 ">
           <li><a href="#" className="hover:text-orange-600">Home</a></li>
           <li><a href="#" className="hover:text-orange-600">About Us</a></li>
-          <li><a href="#" className="hover:text-orange-600">Courses</a></li>
+          <li><a href="#services" className="hover:text-orange-600">Courses</a></li>
           <li><a href="#" className="hover:text-orange-600">Projects</a></li>
           <li><a href="#" className="hover:text-orange-600">Contact</a></li>
         </ul>
